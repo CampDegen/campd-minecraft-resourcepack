@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "translucent",
+  "textures": {
+    "portal": "minecraft:block/red_portal",
+    "particle": "minecraft:block/red_portal"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 6.5],
+      "to":   [16, 16, 9.5],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#portal" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#portal" }
+      }
+    }
+  ]
+}
